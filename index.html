@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pokedex</title>
+
+    <!-- Import Styles -->
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Andada+Pro&display=swap" rel="stylesheet">
+
+    <!-- Import Vue.js -->
+    <script src="https://unpkg.com/vue@3"></script>
+
+    <!--Import API Pokemon-->
+    <script src="https://unpkg.com/pokeapi-js-wrapper/dist/index.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <div class="back">
+        <h1>Pokedex</h1>
+        <p>Welcome to your online Pokedex, here you will find all the Pokemons !!!<br>
+          You can search for a pokemon by entering its name or id in the search bar below and click on validate to display your pokemon !
+        </p>
+        <searchbar></searchbar>
+      </div>
+      <pokemontiles></pokemontiles>
+
+    </div>
+
+    <!-- Import App -->
+    <script src="./main.js"></script>
+
+    <!-- Import Components -->
+    <script src="./components/PokemonTiles.js"></script>
+    <script src="./components/SearchBar.js"></script>
+
+    <!-- Mount App -->
+    <script>
+        const mountedApp = app.mount('#app')
+    </script>
+
+    <footer>
+      <small>&copy; Copyright 2022, Pokedex By IG, Polytech Montpellier</small> 
+    </footer> 
+
+  </body>
+</html>

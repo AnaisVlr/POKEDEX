@@ -1,0 +1,157 @@
+body{
+    font-family: 'Andada Pro', serif;
+    margin: 0;
+    background: url(background.jpg);
+    color: navy;
+}
+
+#app{
+    max-width:1280px;
+    min-height:100%;    
+    margin:0 5px;    
+    position:relative;   
+}
+
+.back{
+    background: #FBF4F7;
+    border-radius: 20px;
+    margin: 10px 25px;
+    border: 3px solid navy;
+    box-shadow: 3px 3px rgba(13, 13, 170, 0.767);
+}
+
+.back p{
+    margin: 10px;
+}
+
+.back h1{
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.searchbar{
+    margin-bottom: 10px;
+}
+
+.search button{
+    font-family: 'Andada Pro', serif;
+    margin: 2px;
+    padding: 5px;
+    background: #FBF4F7;
+    border: 3px solid navy;
+    box-shadow: 3px 3px rgba(13, 13, 170, 0.767);
+
+}
+
+.search button:active{
+    box-shadow: none;
+}
+
+.searchbar input{
+    font-family: 'Andada Pro', serif;
+    border: 3px solid navy;
+    border-radius: 4px;
+    padding: 5px 7px;
+    margin: 10px;
+}
+
+.searchbar input, select{
+    outline: none;
+}
+
+.pokemontiles{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 50px;
+    grid-template-columns: repeat(auto-fit, 200px);
+}
+.pokemon{
+    background-color: #FBF4F7;
+    margin: auto;
+    border: 3px solid navy;
+    border-radius: 10px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px rgba(13, 13, 170, 0.767);
+}
+
+.morepokemon{
+    border-radius: 10px;
+    border: 3px solid navy;
+    width: 200px;
+    margin: auto;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px rgba(13, 13, 170, 0.767);
+}
+
+.morepokemon .speed{
+    margin-bottom: 10px;
+}
+
+.picture{
+    margin: auto;
+}
+.id{
+    margin-left: 1px;
+}
+.name{
+    margin-left: 1px;
+}
+.pokemon button{
+    font-family: 'Andada Pro', serif;
+    display: block;
+    margin: 5px auto;
+    padding: 5px;
+    background: #FBF4F7;
+    border: 3px solid navy;
+    box-shadow: 3px 3px rgba(13, 13, 170, 0.767);
+}
+
+.pokemon button:active{
+    box-shadow: none;
+}
+
+.weigth{
+    margin-left: 1px;
+}
+.height{
+    margin-left: 1px;
+}
+.baseexpe{
+    margin-left: 1px;
+}
+.ability{
+    margin-left: 1px;
+}
+.hp{
+    margin-left: 1px;
+}
+.attack{
+    margin-left: 1px;
+}
+.defense{
+    margin-left: 1px;
+}
+.speed{
+    margin-left: 1px;
+}
+    
+footer{
+    margin-top: 10px;
+    background: #FBF4F7;
+    display: grid;
+    width:100%;   
+    padding: 8px 0px;    
+    height:5%;   
+    border-top: 3px solid navy;
+}
+
+footer small{
+    margin-left: 2px;
+}
+
