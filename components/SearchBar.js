@@ -1,6 +1,4 @@
 app.component('searchbar', {
-    props: {
-    },
     template: 
     /*html*/
     `<div class="searchbar">
